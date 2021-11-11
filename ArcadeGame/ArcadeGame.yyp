@@ -1,5 +1,7 @@
 {
   "resources": [
+    {"id":{"name":"sprFrogger","path":"sprites/sprFrogger/sprFrogger.yy",},"order":0,},
+    {"id":{"name":"sprCar","path":"sprites/sprCar/sprCar.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
