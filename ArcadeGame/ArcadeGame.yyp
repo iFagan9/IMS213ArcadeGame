@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
+    {"id":{"name":"objWorm","path":"objects/objWorm/objWorm.yy",},"order":0,},
     {"id":{"name":"sprFrogger","path":"sprites/sprFrogger/sprFrogger.yy",},"order":0,},
     {"id":{"name":"sprCar","path":"sprites/sprCar/sprCar.yy",},"order":1,},
     {"id":{"name":"sprTileSet","path":"sprites/sprTileSet/sprTileSet.yy",},"order":2,},
