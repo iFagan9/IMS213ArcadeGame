@@ -1,6 +1,8 @@
 {
   "resources": [
+    {"id":{"name":"sprEndGoalComplete","path":"sprites/sprEndGoalComplete/sprEndGoalComplete.yy",},"order":6,},
     {"id":{"name":"Collision_tl","path":"tilesets/Collision_tl/Collision_tl.yy",},"order":1,},
+    {"id":{"name":"objEndGoal","path":"objects/objEndGoal/objEndGoal.yy",},"order":5,},
     {"id":{"name":"Main_tl","path":"tilesets/Main_tl/Main_tl.yy",},"order":0,},
     {"id":{"name":"objWorm","path":"objects/objWorm/objWorm.yy",},"order":0,},
     {"id":{"name":"sprFrogger","path":"sprites/sprFrogger/sprFrogger.yy",},"order":0,},
@@ -56,7 +58,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.6.595",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "ArcadeGame",
