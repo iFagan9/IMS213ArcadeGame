@@ -1,1 +1,3 @@
-lives = 7;
+lives = 6;
+
+global.amtOfApples = 0;
