@@ -2,7 +2,7 @@ if(!moveAnim){
 	image_index = 0;	
 }
 
-if(keyboard_check(vk_up) && canMove){
+if(keyboard_check(vk_up) && canMove && !tilemap_get_at_pixel(Collision_tl,x,y-16)){
 	image_angle = 0;
 	image_yscale = 1;
 	moveAnim = true;
@@ -11,7 +11,7 @@ if(keyboard_check(vk_up) && canMove){
 	moveUp = true;
 }
 
-if(keyboard_check(vk_left) && canMove){
+if(keyboard_check(vk_left) && canMove && !tilemap_get_at_pixel(Collision_tl,x-16,y)){
 	image_angle = 270;
 	image_yscale = -1;
 	moveAnim = true;
@@ -20,7 +20,7 @@ if(keyboard_check(vk_left) && canMove){
 	moveLeft = true;
 }
 
-if(keyboard_check(vk_right) && canMove){
+if(keyboard_check(vk_right) && canMove && !tilemap_get_at_pixel(Collision_tl,x+16,y)){
 	image_angle = 270;
 	image_yscale = 1;
 	moveAnim = true;
@@ -29,7 +29,7 @@ if(keyboard_check(vk_right) && canMove){
 	moveRight = true;
 }
 
-if(keyboard_check(vk_down) && canMove){
+if(keyboard_check(vk_down) && canMove && !tilemap_get_at_pixel(Collision_tl,x,y+16)){
 	image_angle = 180;
 	image_yscale = 1;
 	moveAnim = true;
