@@ -1,5 +1,5 @@
-x = 604;
-y = 604;
+x = 177;
+y = 722;
 moveAnim = false;
 canMove = true;
 
