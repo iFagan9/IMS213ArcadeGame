@@ -30,6 +30,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rmStart","path":"rooms/rmStart/rmStart.yy",},},
+    {"roomId":{"name":"rmEnd","path":"rooms/rmEnd/rmEnd.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
