@@ -1,4 +1,4 @@
-ReSpawn();
 lives--;
+ReSpawn();
 
 instance_destroy();
