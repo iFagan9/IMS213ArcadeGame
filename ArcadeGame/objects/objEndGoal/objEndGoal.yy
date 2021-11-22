@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sprEndGoal",
+    "path": "sprites/sprEndGoal/sprEndGoal.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

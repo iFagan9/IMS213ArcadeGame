@@ -1,6 +1,9 @@
 //sets staring pos of worm
-x = 177;
-y = 722;
+x = 180;
+y = 724;
+
+lay_id = layer_get_id("Collision");
+map_id = layer_tilemap_get_id(lay_id);
 
 //sets camera width and height
 cam_height = 160;

@@ -1,2 +1,2 @@
 //starts game by switching rooms
-room_goto(Room1);
+room_goto(game_room);

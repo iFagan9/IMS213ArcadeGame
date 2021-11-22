@@ -1,4 +1,5 @@
 if(!wormIn){
+	audio_play_sound(Apple_snd,1,false);
 	lives--;
 	global.amtOfApples++;
 	
